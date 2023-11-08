@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Airport</string>
+    <string name="menu_update">Refresh Airports</string>
+    <string name="auto_update_prompt">Auto refresh?</string>
+    <string name="update_freq_prompt">Refresh Frequency</string>
+    <string name="min_quake_mag_prompt">Minimum Airport Wind</string>
+    <string name="menu_settings">Setting</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search for airport...</string>
+    <string name="airport_channel_name">New airport is registered.</string>
+</resources>

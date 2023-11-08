@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="timeformat"
+            type="java.text.DateFormat" />
+        <variable
+            name="magnitudeformat"
+            type="java.text.NumberFormat" />
+        <variable
+            name="airport"
+            type="com.professionalandroid.apps.airport.Airport" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/airline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:singleLine="false"
+            android:text="@{airport.airline}"
+            android:textAppearance="?attr/textAppearanceListItem"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintRight_toLeftOf="@id/terminalid"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/estimatedDateTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:singleLine="false"
+            android:text="@{airport.estimatedDateTime}"
+            app:layout_constraintRight_toLeftOf="@id/terminalid"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/airline"/>
+
+        <TextView
+            android:id="@+id/airport"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:singleLine="false"
+            android:text="@{airport.airport}"
+            app:layout_constraintRight_toLeftOf="@id/terminalid"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/estimatedDateTime"/>
+
+        <TextView
+            android:id="@+id/flightId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="110dp"
+            android:singleLine="false"
+            android:text="@{airport.flightId}"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/terminalid"
+            app:layout_constraintTop_toBottomOf="@id/airport" />
+
+        <TextView
+            android:id="@+id/terminalid"
+            android:layout_width="142dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="@{airport.terminalid}"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/yoil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="false"
+            android:text="@{airport.yoil}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/terminalid"
+            app:layout_constraintStart_toEndOf="@+id/airport"
+            app:layout_constraintTop_toBottomOf="@id/terminalid"
+            app:layout_constraintVertical_bias="0.074" />
+
+        <TextView
+            android:id="@+id/wind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="false"
+            android:text="@{magnitudeformat.format(airport.wind)}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/terminalid"
+            app:layout_constraintStart_toEndOf="@+id/airport"
+            app:layout_constraintTop_toBottomOf="@id/terminalid" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

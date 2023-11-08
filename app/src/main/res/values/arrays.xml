@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="update_freq_options">
+        <item>Every 15 Minute</item>
+        <item>Every hour</item>
+        <item>Every 4 hour</item>
+        <item>Every 12 hour</item>
+        <item>Every 24 Hour</item>
+    </string-array>
+
+    <string-array name="update_freq_values">
+        <item>15</item>
+        <item>60</item>
+        <item>240</item>
+        <item>720</item>
+        <item>1440</item>
+    </string-array>
+    <string-array name="wind_options">
+        <item>All Wind</item>
+        <item>Wind 1</item>
+        <item>Wind 2</item>
+        <item>Wind 3</item>
+        <item>Wind 4</item>
+        <item>Wind 5</item>
+    </string-array>
+    <string-array name="wind_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

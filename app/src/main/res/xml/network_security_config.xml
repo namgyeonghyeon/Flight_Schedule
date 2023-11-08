@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">apis.data.go.kr</domain>
+        <domain includeSubdomains="true">http://apis.data.go.kr/B551177/StatusOfPassengerWorldWeatherInfo/getPassengerArrivalsWorldWeather?serviceKey=xk5yi2Sp
+            RGjDAOnbnwSu2axdygFyIf8qFb0lotCTXD7SZ8OO7xGR48r0LVDj/6b2I4D5OE8QndU1Sqi9V6rx3w==</domain>
+    </domain-config>
+</network-security-config>
