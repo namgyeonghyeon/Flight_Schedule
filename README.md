@@ -20,7 +20,6 @@
 ![image](https://github.com/namgyeonghyeon/Flight_Schedule/assets/129054045/c29ea45a-f238-417f-882a-d6484f5da8c5)
 새로고침 시간 설정
 
-![image](https://github.com/namgyeonghyeon/Flight_Schedule/assets/129054045/86e42f86-d59c-466a-84a4-7687439ab761)
 
 [오류 해결방안]
 
