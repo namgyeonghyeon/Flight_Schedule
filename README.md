@@ -14,11 +14,16 @@
 ![image](https://github.com/namgyeonghyeon/Flight_Schedule/assets/129054045/f93ec6fd-7570-46ec-92b0-186719a8d0c1)
 
 ![image](https://github.com/namgyeonghyeon/Flight_Schedule/assets/129054045/fcd9e415-11db-4b35-9bea-6bbe5b00f733)
+
 풍속 1.0이상 선택
 ![image](https://github.com/namgyeonghyeon/Flight_Schedule/assets/129054045/74f55ace-c705-4850-b345-d6578076bb46)
 
 ![image](https://github.com/namgyeonghyeon/Flight_Schedule/assets/129054045/c29ea45a-f238-417f-882a-d6484f5da8c5)
+
 새로고침 시간 설정
+
+
+
 
 
 [오류 해결방안]
